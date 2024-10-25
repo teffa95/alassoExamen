@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="alassoExamen.Views.Resumen"
+             Title="Resumen">
+    <VerticalStackLayout>
+        <Label 
+            Text="Resumen"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+
+        <!-- Usuario Conectado -->
+        <Label Text="Usuario Conectado:"
+            FontSize="Medium"/>
+                <Label x:Name="lblUsuario"
+            FontSize="Medium" />
+
+        <Grid Padding="20">
+            <Grid.RowDefinitions>
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+            </Grid.RowDefinitions>
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition />
+                <ColumnDefinition />
+            </Grid.ColumnDefinitions>
+
+            <!-- Fecha de Inscripción -->
+            <Label Text="Fecha de Inscripción:"
+               FontSize="Medium"
+               Grid.Row="0"
+               Grid.Column="0" />
+            <Label x:Name="lblFecha"
+               FontSize="Medium"
+               Grid.Row="0"
+               Grid.Column="1" />
+
+            <!-- País -->
+            <Label Text="País:"
+               FontSize="Medium"
+               Grid.Row="1"
+               Grid.Column="0" />
+            <Label x:Name="lblPais"
+               FontSize="Medium"
+               Grid.Row="1"
+               Grid.Column="1" />
+
+            <!-- Ciudad -->
+            <Label Text="Ciudad:"
+               FontSize="Medium"
+               Grid.Row="2"
+               Grid.Column="0" />
+            <Label x:Name="lblCiudad"
+               FontSize="Medium"
+               Grid.Row="2"
+               Grid.Column="1" />
+
+            <!-- Monto Inicial -->
+            <Label Text="Monto Inicial:"
+               FontSize="Medium"
+               Grid.Row="3"
+               Grid.Column="0" />
+            <Label x:Name="lblMontoInicial"
+               FontSize="Medium"
+               Grid.Row="3"
+               Grid.Column="1" />
+
+            <!-- Pago Mensual -->
+            <Label Text="Pago Mensual:"
+               FontSize="Medium"
+               Grid.Row="4"
+               Grid.Column="0" />
+            <Label x:Name="lblPagoMensual"
+               FontSize="Medium"
+               Grid.Row="4"
+               Grid.Column="1" />
+
+            <!-- Nombre -->
+            <Label Text="Nombre:"
+               FontSize="Medium"
+               Grid.Row="5"
+               Grid.Column="0" />
+            <Label x:Name="lblNombre"
+               FontSize="Medium"
+               Grid.Row="5"
+               Grid.Column="1" />
+
+            <!-- Apellido -->
+            <Label Text="Apellido:"
+               FontSize="Medium"
+               Grid.Row="6"
+               Grid.Column="0" />
+            <Label x:Name="lblApellido"
+               FontSize="Medium"
+               Grid.Row="6"
+               Grid.Column="1" />
+
+            <!-- Edad -->
+            <Label Text="Edad:"
+               FontSize="Medium"
+               Grid.Row="7"
+               Grid.Column="0" />
+            <Label x:Name="lblEdad"
+               FontSize="Medium"
+               Grid.Row="7"
+               Grid.Column="1" />
+
+           
+        </Grid>
+
+
+    </VerticalStackLayout>
+</ContentPage>

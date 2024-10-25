@@ -23,7 +23,7 @@ public partial class Login : ContentPage
                     break;
                 }
             }
-            if (Ingreso)
+            if (Ingreso == false)
             {
                 DisplayAlert("Error", "Usuario y Contraseña Incorrectos", "Cerrar");
             }
