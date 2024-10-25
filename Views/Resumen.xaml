@@ -9,7 +9,6 @@
             VerticalOptions="Center" 
             HorizontalOptions="Center" />
 
-        <!-- Usuario Conectado -->
         <Label Text="Usuario Conectado:"
             FontSize="Medium"/>
                 <Label x:Name="lblUsuario"
@@ -33,7 +32,6 @@
                 <ColumnDefinition />
             </Grid.ColumnDefinitions>
 
-            <!-- Fecha de Inscripción -->
             <Label Text="Fecha de Inscripción:"
                FontSize="Medium"
                Grid.Row="0"
@@ -43,7 +41,6 @@
                Grid.Row="0"
                Grid.Column="1" />
 
-            <!-- País -->
             <Label Text="País:"
                FontSize="Medium"
                Grid.Row="1"
@@ -53,7 +50,6 @@
                Grid.Row="1"
                Grid.Column="1" />
 
-            <!-- Ciudad -->
             <Label Text="Ciudad:"
                FontSize="Medium"
                Grid.Row="2"
@@ -63,7 +59,6 @@
                Grid.Row="2"
                Grid.Column="1" />
 
-            <!-- Monto Inicial -->
             <Label Text="Monto Inicial:"
                FontSize="Medium"
                Grid.Row="3"
@@ -73,7 +68,6 @@
                Grid.Row="3"
                Grid.Column="1" />
 
-            <!-- Pago Mensual -->
             <Label Text="Pago Mensual:"
                FontSize="Medium"
                Grid.Row="4"
@@ -83,7 +77,6 @@
                Grid.Row="4"
                Grid.Column="1" />
 
-            <!-- Nombre -->
             <Label Text="Nombre:"
                FontSize="Medium"
                Grid.Row="5"
@@ -93,7 +86,7 @@
                Grid.Row="5"
                Grid.Column="1" />
 
-            <!-- Apellido -->
+            
             <Label Text="Apellido:"
                FontSize="Medium"
                Grid.Row="6"
@@ -103,7 +96,6 @@
                Grid.Row="6"
                Grid.Column="1" />
 
-            <!-- Edad -->
             <Label Text="Edad:"
                FontSize="Medium"
                Grid.Row="7"
